@@ -1,0 +1,21 @@
+# Compiled Object files
+*.o
+*.co
+*.cco
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.out
+*.exe
+
+# Others
+core
+*.log
