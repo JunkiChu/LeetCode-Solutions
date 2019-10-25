@@ -16,19 +16,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int* twoSum(int* nums, int numsSize, int target, int* returnSize)
+int* twoSum(int* nums, int nums_size, int target, int* return_size)
 {
-    int * returnNums = (int *)calloc(2, sizeof(int));
-    for(int i = 0; i < numsSize - 1; ++i)
+    int * return_nums = (int *)calloc(2, sizeof(int));
+    for(int i = 0; i < nums_size - 1; ++i)
     {
-        for(int j = i + 1; j < numsSize; ++j)
+        for(int j = i + 1; j < nums_size; ++j)
         {
             if(nums[i] + nums[j] == target)
             {
-                returnNums[0] = i;
-                returnNums[1] = j;
-                *returnSize = 2;
-                return returnNums;
+                return_nums[0] = i;
+                return_nums[1] = j;
+                *return_size = 2;
+                return return_nums;
             }
         }
     }
@@ -40,16 +40,16 @@ int main()
 {
     int nums[4] = {2, 7, 11, 15};
     int target = 9;
-    int returnSize;
+    int return_size;
     
-    int * returnNums = twoSum(nums, 4, target, &returnSize);
-    for(int i = 0; i < returnSize; ++i)
+    int * return_nums = twoSum(nums, 4, target, &return_size);
+    for(int i = 0; i < return_size; ++i)
     {
-        printf("%d ", returnNums[i]);
+        printf("%d ", return_nums[i]);
     }
     printf("\n");
 
-    free(returnNums);
+    free(return_nums);
 
     return 0;
 }
