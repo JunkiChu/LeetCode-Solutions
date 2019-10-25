@@ -68,10 +68,12 @@ double findMedianSortedArrays(int *nums1, int nums1_size, int *nums2, int nums2_
             int left_max = 0;
             if(0 == i)
             {
+                // nums1数组整体在右半部
                 left_max = nums2[j - 1];
             }
             else if(0 == j)
             {
+                // nums2数组整体在右半部
                 left_max = nums1[i - 1];
             }
             else
@@ -89,10 +91,12 @@ double findMedianSortedArrays(int *nums1, int nums1_size, int *nums2, int nums2_
             int right_min = 0;
             if(nums1_size == i)
             {
+                // nums1数组整体在左半部
                 right_min = nums2[j];
             }
             else if(nums2_size == j)
             {
+                // nums2数组整体在左半部
                 right_min = nums1[i];
             }
             else
