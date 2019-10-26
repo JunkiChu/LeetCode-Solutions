@@ -26,16 +26,16 @@ int removeDuplicates(int* nums, int nums_size)
         return 0;
     }
 
-    int len = 0;
-    for(int i = 0; i < nums_size; ++i)
+    int i = 0;
+    for(int j = 1; j < nums_size; ++j)
     {
-        if(nums[len] != nums[i])
+        if(nums[i] != nums[j])
         {
-            nums[++len] = nums[i];
+            nums[++i] = nums[j];
         }
     }
 
-    return len + 1;
+    return i + 1;
 }
 
 int main()
