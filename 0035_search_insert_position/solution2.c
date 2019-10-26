@@ -1,7 +1,7 @@
 //=======================================================================================
 //   Copyright (C) 2019 Junki Chu. All rights reserved.
 //   
-//   文件名称: solution1.c
+//   文件名称: solution2.c
 //   创 建 者: Junki Chu <jk.chu@foxmail.com>
 //   创建日期: 2019年10月26日
 //   描    述: 二分查找法
