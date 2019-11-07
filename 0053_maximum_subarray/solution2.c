@@ -29,6 +29,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 #define MAX(var1, var2) ((var1) > (var2) ? (var1) : (var2))
 
