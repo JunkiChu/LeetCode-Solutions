@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-blue)  ![Compiler](https://img.shields.io/badge/Compiler-GCC-green)  ![Progress](https://img.shields.io/badge/Progress-7%2F1255-yellow)  ![Update](https://img.shields.io/badge/Update-Every%20Few%20Days-orange)  ![License](https://img.shields.io/badge/License-MIT-red)
+![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-blue)  ![Compiler](https://img.shields.io/badge/Compiler-GCC-green)  ![Progress](https://img.shields.io/badge/Progress-8%2F1255-yellow)  ![Update](https://img.shields.io/badge/Update-Every%20Few%20Days-orange)  ![License](https://img.shields.io/badge/License-MIT-red)
 
 # LeetCode-Solutions
 My solutions for problems on [LeetCode](https://leetcode-cn.com/) in C/C++
@@ -13,4 +13,5 @@ My solutions for problems on [LeetCode](https://leetcode-cn.com/) in C/C++
 |0035|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)                            |[C](./0035_search_insert_position/solution2.c)             |Easy     |
 |0053|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)                                        |[C](./0053_maximum_subarray/solution2.c)                   |Easy     |
 |0066|[Plus One](https://leetcode-cn.com/problems/plus-one/)                                                        |[C](./0066_plus_one/solution1.c)                           |Easy     |
+|0088|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)                                    |[C](./0088_merge_sorted_array/solution2.c)                 |Easy     |
 
