@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-blue)  ![Compiler](https://img.shields.io/badge/Compiler-GCC-green)  ![Progress](https://img.shields.io/badge/Progress-9%2F1255-yellow)  ![Update](https://img.shields.io/badge/Update-Every%20Few%20Days-orange)  ![License](https://img.shields.io/badge/License-MIT-red)
+![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-blue)  ![Compiler](https://img.shields.io/badge/Compiler-GCC-green)  ![Progress](https://img.shields.io/badge/Progress-10%2F1256-yellow)  ![Update](https://img.shields.io/badge/Update-Every%20Few%20Days-orange)  ![License](https://img.shields.io/badge/License-MIT-red)
 
 # LeetCode-Solutions
 My solutions for problems on [LeetCode](https://leetcode-cn.com/) in C/C++
@@ -15,4 +15,5 @@ My solutions for problems on [LeetCode](https://leetcode-cn.com/) in C/C++
 |0066|[Plus One](https://leetcode-cn.com/problems/plus-one/)                                                        |[C](./problem_0001_to_problem_0099/0066_plus_one/solution1.c)                           |Easy     |
 |0088|[Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)                                    |[C](./problem_0001_to_problem_0099/0088_merge_sorted_array/solution2.c)                 |Easy     |
 |0118|[Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/)                                       |[C++](./problem_0100_to_problem_0199/0118_pascals_triangle/solution2.cc)                |Easy     |
+|0119|[Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/)                                 |[C](./problem_0100_to_problem_0199/0119_pascals_triangle_ii/solution3.c)             |Easy     |
 
